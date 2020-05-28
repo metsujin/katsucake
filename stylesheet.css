@@ -1,0 +1,94 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+
+    display: flex;
+
+    
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+    
+.firstpicture, .secondpicture {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+.thirdpicture {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    }
+
+
+.firstpicture {
+    background-image: url(images/pic3.jpg);
+    min-height: 100%;
+    margin: 0 auto;
+}
+.secondpicture {
+    background-image: url(images/pic2.jpg);
+    min-height: 600px;
+}
+
+.thirdpicture {
+    background-image: url(images/pic1.jpg);
+    min-height: 600px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: pink;
+}
+
+.caption span.border{
+    background-color: #111;
+    border: 5px groove purple;
+    color: pink;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    
+}
+
+
+p{
+    text-align: center;
+}
